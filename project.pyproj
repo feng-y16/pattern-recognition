@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{f2b1e2d3-6f88-42de-9d3c-356d320b0190}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>draw.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="draw.py" />
+    <Compile Include="hw1_1.py" />
+    <Compile Include="hw1_1_combined_data.py" />
+    <Compile Include="hw1_2_solution1.py" />
+    <Compile Include="hw1_2_solution2.py" />
+    <Compile Include="hw1_3_10genes.py" />
+    <Compile Include="hw1_3_10genes_cross_validation.py" />
+    <Compile Include="hw1_3_2genes.py" />
+    <Compile Include="hw1_3_2genes_cross_validation.py" />
+    <Compile Include="hw1_3_combined_data.py" />
+    <Compile Include="hw1_4_10genes.py" />
+    <Compile Include="hw1_4_10genes_cross_validation.py" />
+    <Compile Include="hw1_4_2genes.py" />
+    <Compile Include="hw1_4_2genes_cross_validation.py" />
+    <Compile Include="hw1_4_combined_data.py" />
+    <Compile Include="prepare1.py" />
+    <Compile Include="prepare2.py" />
+    <Compile Include="shuffle_fy.py" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
